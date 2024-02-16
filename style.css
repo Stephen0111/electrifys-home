@@ -1,0 +1,258 @@
+html {
+    scroll-behavior: smooth;
+    
+}
+
+body{ overflow-x:hidden;
+     width:100vw;}
+#hero {
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://scontent-lhr8-1.xx.fbcdn.net/v/t39.30808-6/358419646_588549650138932_9194581214324010136_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=dRzj7Tf0tQMAX8FfATN&_nc_ht=scontent-lhr8-1.xx&cb_e2o_trans=q&oh=00_AfCW2ziFE60sjxrFDMS8kGARG_HMWM8-PJVF1KD4oTay-Q&oe=652FBA16")
+   
+}
+#herointro{
+    width: 100%;
+    height: auto;
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+#about{
+    width: 100%;
+    height: auto;
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+    
+}
+
+#faq{
+    width: 100%;
+    height: auto;
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+    
+}
+
+#contact{
+    width: 100%;
+    height: auto;
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+    
+}
+
+
+#services{
+    width: 100%;
+    height: auto;
+    background-size:cover;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    opacity: 0.9;
+    
+}
+#herotopic  p span {
+    color: black;
+    letter-spacing: 1px;
+}
+
+@media (min-width: 992px) {
+    #hero {
+        padding-left: 160px;
+    }
+}
+
+#hero:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar{
+   
+    height: 200;
+}
+#hero  {
+    background-image: url(https://images.unsplash.com/photo-1616361715039-11dde2199a21?q=80&w=2946&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+#herop {
+    color: white;
+    margin: 95px 0 0 0;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+   justify-content: center;
+   padding-right: 0;
+}
+
+.fw-bold{  font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;}
+#hero p span {
+    color: black;
+    letter-spacing: 1px;
+}
+
+#hero .social-links {
+    margin-top: 30px;
+}
+
+#hero .social-links a {
+    font-size: 24px;
+    display: inline-block;
+    color: #45505b;
+    line-height: 1;
+    margin: 0px;
+    transition: 0.3s;
+}
+
+#hero .social-links a:hover {
+    color: #0563bb;
+}
+
+@media (max-width: 992px) {
+    #hero {
+        text-align: center;
+    }
+    #hero h1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    #hero p {
+        margin-top: 10px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+
+
+.nav-link {
+    font-weight: 350;
+   
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+}
+
+#2logo1:hover {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px whitesmoke;
+    font-size: 27px;
+}
+
+
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24
+}
+
+h5 {
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: #45505b;
+    align-items: center;
+}
+
+#col1 {
+    border-right-style: #45505b;
+}
+
+.1nav-link:hover {
+    box-shadow: 10px 10px white;
+    font-size: 27px;
+}
+
+@media only screen and (max-width: 800px) {
+    .nav-link {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar-nav {
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #hide {
+        display: none;
+    }
+}
+
+#foot {
+   
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: black;
+    padding-left: 15px;
+}
+
+#socials {
+    display: inline;
+}
+
+#bikes1 {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+}
+
+#contact input {
+    border: 2px solid;
+}
+
+#contact textarea {
+    border: 2px solid;
+}
+footer {
+    width: 100%;
+    border: 3px solid #45505b;
+    height: auto;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+}
